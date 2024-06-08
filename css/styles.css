@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4em;
+    background-color: royalblue;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.nav__item a{
+    color: #f7f7f7;
+    
+}
+
+.nav__item{
+    list-style: none;
+}
+
+
+.nav__item a:hover{
+    color: #000000;
+    
+}
